@@ -1,4 +1,5 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config();
 import './clients/db';
 import express from 'express';
 import Boom from 'boom';
