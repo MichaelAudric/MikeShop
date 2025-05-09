@@ -25,5 +25,8 @@
     "rate-limit-redis": "^2.1.0",
     "redis": "^5.0.1",
     "sucrase": "^3.18.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
