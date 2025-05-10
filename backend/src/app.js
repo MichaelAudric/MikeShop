@@ -1,10 +1,10 @@
 import dotenv from 'dotenv';
 dotenv.config();
-import './clients/db';
+import './clients/db.js';
 import express from 'express';
 import Boom from 'boom';
 import cors from 'cors';
-import limiter from './rate-limiter';
+import limiter from './rate-limiter.js';
 import routes from './routes';
 
 const app = express();
