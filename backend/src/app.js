@@ -10,7 +10,7 @@ import routes from './routes';
 const app = express();
 
 app.use(cors({
-  origin: 'https://mike-shop-2fgz5oeu8-michael-audrics-projects.vercel.app',
+  origin: 'https://mike-shop-ten.vercel.app/',
   credentials: true,
 }));
 
